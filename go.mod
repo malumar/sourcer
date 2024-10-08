@@ -1,4 +1,4 @@
-module malumar/sourcer
+module github.com/malumar/sourcer
 
 go 1.17
 
