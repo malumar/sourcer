@@ -3,9 +3,9 @@ package generator
 import (
 	"bytes"
 	"fmt"
+	"github.com/malumar/sourcer/annotations"
+	"github.com/malumar/sourcer/model"
 	"log"
-	"malumar/sourcer/annotations"
-	"malumar/sourcer/model"
 	"os"
 	"os/exec"
 	"path/filepath"

@@ -2,9 +2,9 @@ package sourcer
 
 import (
 	"fmt"
+	"github.com/malumar/sourcer/annotations"
+	"github.com/malumar/sourcer/model"
 	"log"
-	"malumar/sourcer/annotations"
-	"malumar/sourcer/model"
 	"os"
 	"path/filepath"
 	"strings"

@@ -12,15 +12,15 @@ import (
 	"sort"
 	"strings"
 
-	"malumar/sourcer/generator"
-	"malumar/sourcer/model"
+	"github.com/malumar/sourcer/generator"
+	"github.com/malumar/sourcer/model"
 )
 
 var (
 	debugAstOfSources = false
 )
 
-//const GO_FILES = "^[^\\$]+\\.go$"
+// const GO_FILES = "^[^\\$]+\\.go$"
 const GO_FILES = "^(.*).go$"
 
 // const SKIP_FILES =  "^(zz)?[^\\$][^_]+\\$\\.go$"

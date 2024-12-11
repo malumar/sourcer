@@ -1,8 +1,8 @@
 package sourcer
 
 import (
+	"github.com/malumar/sourcer/annotations"
 	"github.com/stretchr/testify/assert"
-	"malumar/sourcer/annotations"
 	"testing"
 )
 
