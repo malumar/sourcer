@@ -791,7 +791,7 @@ func extractField(field *ast.Field, imports map[string]string) (model.Field, boo
 		return mField, true
 	}
 
-	log.Printf("*** Could not understand field '%+v' --> %v", field.Type, mField)
+	log.Printf("*** Could not understand field '%+v' --> %v def: %s", field.Type, mField, field.Doc.Text())
 
 	return mField, false
 }

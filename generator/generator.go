@@ -26,6 +26,16 @@ type Config struct {
 	parsedSources *model.ParsedSources
 }
 
+// AbsolutePath return absolutePath of struct directory
+func (c *Config) AbsolutePath() string {
+
+	for _, f := range c.parsedSources.FileNames() {
+		return filepath.Dir(f)
+	}
+
+	return ""
+}
+
 func (c *Config) AddValue(key string, value interface{}) {
 	if c.Values == nil {
 		c.Values = make(map[string]interface{})
